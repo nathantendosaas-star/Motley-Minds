@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+  
+  --color-indigo-deep: #1E2A3A;
+  --color-washed-blue: #4F6D8A;
+  --color-denim-midtone: #6F8FAF;
+  --color-raw-black: #0E0F12;
+  --color-off-white: #F5F1EA;
+  --color-silver-rivet: #B8BCC4;
+  --color-faded-stitch: #8B919A;
+  --color-light-stone: #D8D2C8;
+}
+
+@layer utilities {
+  .stitch-border {
+    border: 2px dashed var(--color-faded-stitch);
+  }
+  .stitch-border-light {
+    border: 2px dashed rgba(255, 255, 255, 0.3);
+  }
+  .denim-pattern {
+    background-image: url("data:image/svg+xml,%3Csvg width='4' height='4' viewBox='0 0 4 4' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h4v4H0V0zm2 2h2v2H2V2zM0 2h2v2H0V2zm2-2h2v2H2V0z' fill='%230E0F12' fill-opacity='0.15' fill-rule='evenodd'/%3E%3C/svg%3E");
+  }
+  .denim-texture {
+    background-color: var(--color-indigo-deep);
+    background-image: url("data:image/svg+xml,%3Csvg width='4' height='4' viewBox='0 0 4 4' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h4v4H0V0zm2 2h2v2H2V2zM0 2h2v2H0V2zm2-2h2v2H2V0z' fill='%230E0F12' fill-opacity='0.15' fill-rule='evenodd'/%3E%3C/svg%3E");
+  }
+  .denim-texture-light {
+    background-color: var(--color-off-white);
+    background-image: url("data:image/svg+xml,%3Csvg width='4' height='4' viewBox='0 0 4 4' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h4v4H0V0zm2 2h2v2H2V2zM0 2h2v2H0V2zm2-2h2v2H2V0z' fill='%23D8D2C8' fill-opacity='0.3' fill-rule='evenodd'/%3E%3C/svg%3E");
+  }
+  .text-shadow-sm {
+    text-shadow: 1px 1px 3px rgba(14, 15, 18, 0.6);
+  }
+}
+
+body {
+  background-color: var(--color-off-white);
+  color: var(--color-raw-black);
+}
+
+.dark body {
+  background-color: var(--color-raw-black);
+  color: var(--color-off-white);
+}
