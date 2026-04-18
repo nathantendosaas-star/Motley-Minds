@@ -13,6 +13,8 @@ import Shop from '@/views/Shop';
 import About from '@/views/About';
 import Lookbook from '@/views/Lookbook';
 import Contact from '@/views/Contact';
+import PrivacyPolicy from '@/views/PrivacyPolicy';
+import TermsOfUse from '@/views/TermsOfUse';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
