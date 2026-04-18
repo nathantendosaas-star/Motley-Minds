@@ -15,7 +15,6 @@ export default function Home() {
   const storyRef = useRef<HTMLDivElement>(null);
 
   const { scrollY } = useScroll();
-  const heroY = useTransform(scrollY, [0, 1000], [0, 300]);
 
   const { scrollYProgress: storyProgress } = useScroll({
     target: storyRef,

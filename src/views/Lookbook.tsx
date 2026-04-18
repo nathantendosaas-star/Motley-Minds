@@ -62,7 +62,7 @@ function SwipeCard({ card, isTop, visualIndex, onSwipe, totalImages, customDirec
   const x = useMotionValue(0);
   const rotate = useTransform(x, [-200, 200], [-15, 15]);
 
-  const handleDragEnd = (e: any, info: any) => {
+  const handleDragEnd = (_e: any, info: any) => {
     const threshold = 80;
     if (info.offset.x < -threshold) {
       onSwipe('forward');
