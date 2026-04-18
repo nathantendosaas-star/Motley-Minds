@@ -124,51 +124,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Floating Product Card 1 (Left) */}
-        <div className="hidden lg:flex absolute left-[5%] xl:left-[10%] top-[30%] z-20 bg-white p-4 shadow-xl items-center gap-4 rounded-sm origin-left">
-          <div className="w-16 h-16 relative bg-light-stone/20">
-            <img src="/8.jpeg" alt="Jacket" className="w-full h-full object-cover" />
-          </div>
-          <div>
-            <p className="text-[10px] font-bold uppercase tracking-wider text-raw-black">Cropped Denim Jacket</p>
-            <p className="text-[10px] text-raw-black/60 mb-1">€ 899 EUR</p>
-            <div className="flex text-raw-black text-[8px]">★★★★★</div>
-          </div>
-          <button className="w-6 h-6 rounded-full bg-raw-black text-white flex items-center justify-center ml-2">
-            +
-          </button>
-        </div>
-
-        {/* Floating Product Card 2 (Right) */}
-        <div className="hidden lg:flex absolute right-[5%] xl:right-[15%] top-[25%] z-20 bg-white/10 backdrop-blur-md p-4 shadow-xl items-center gap-4 rounded-sm border border-white/20 origin-right">
-          <div className="w-16 h-16 relative bg-white">
-            <img src="/2.jpeg" alt="Top" className="w-full h-full object-cover" />
-          </div>
-          <div>
-            <p className="text-[10px] font-bold uppercase tracking-wider text-white">Ribbed Top</p>
-            <p className="text-[10px] text-white/80 mb-1">€ 49 EUR</p>
-            <div className="flex text-white text-[8px]">★★★★★</div>
-          </div>
-          <button className="w-6 h-6 rounded-full bg-white text-raw-black flex items-center justify-center ml-2">
-            +
-          </button>
-        </div>
-
-        {/* Floating Product Card 3 (Right Bottom) */}
-        <div className="hidden lg:flex absolute right-[20%] xl:right-[30%] bottom-[20%] z-20 bg-white/10 backdrop-blur-md p-4 shadow-xl items-center gap-4 rounded-sm border border-white/20 origin-right">
-          <div className="w-16 h-16 relative bg-white">
-            <img src="/14.jpeg" alt="Skirt" className="w-full h-full object-cover" />
-          </div>
-          <div>
-            <p className="text-[10px] font-bold uppercase tracking-wider text-white">Crossover Skirt</p>
-            <p className="text-[10px] text-white/80 mb-1">€ 199 EUR</p>
-            <div className="flex text-white text-[8px]">★★★★★</div>
-          </div>
-          <button className="w-6 h-6 rounded-full bg-white text-raw-black flex items-center justify-center ml-2">
-            +
-          </button>
-        </div>
-
         {/* Bottom Right Carousel Preview */}
         <div className="hidden lg:flex absolute right-0 bottom-0 w-1/3 h-[30vh] gap-4 p-8 z-20 items-end justify-end">
           <div className="flex gap-2 absolute top-4 right-8">
