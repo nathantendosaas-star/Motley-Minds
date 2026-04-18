@@ -18,6 +18,11 @@ function ScrollToTop() {
   const { pathname } = useLocation();
   
   useEffect(() => {
+    // Disable browser's automatic scroll restoration to prevent jumping
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+    
     window.scrollTo(0, 0);
   }, [pathname]);
   
