@@ -110,16 +110,6 @@ export default function Home() {
           </h1>
         </div>
 
-        {/* Center Model Image */}
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 h-[60vh] lg:h-[85vh] z-10 pointer-events-none drop-shadow-2xl">
-          <img 
-            src="/12.jpeg" 
-            alt="Model" 
-            className="h-full w-auto object-cover object-top"
-            loading="eager"
-          />
-        </div>
-
         {/* Left Content */}
         <div className="absolute left-0 top-0 w-full lg:w-1/2 h-auto lg:h-full flex flex-col justify-start lg:justify-center px-6 lg:px-12 xl:px-24 z-20 pt-28 lg:pt-0">
           <div className="max-w-md text-center lg:text-left mx-auto lg:mx-0 bg-white/50 lg:bg-transparent p-4 lg:p-0 rounded-lg backdrop-blur-sm lg:backdrop-blur-none flex flex-col items-center lg:items-start gap-4">
