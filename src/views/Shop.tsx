@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet-async';
 
 const products = [
   { id: 1, name: 'Patchwork Denim Jacket', price: '$280', image: '/8.jpeg', category: 'Jackets' },
-  { id: 2, name: 'Structured Tote Bag', price: '$120', image: '/1.jpeg', category: 'Accessories' },
+  { id: 2, name: 'Structured Tote Bag', price: '$120', image: '/4.jpeg', category: 'Accessories' },
   { id: 3, name: 'Utility Crossbody', price: '$95', image: '/17.jpeg', category: 'Accessories' },
   { id: 4, name: 'Raw Indigo Jacket', price: '$250', image: '/12.jpeg', category: 'Jackets' },
   { id: 5, name: 'Deconstructed Jacket', price: '$310', image: '/13.jpeg', category: 'Jackets' },
