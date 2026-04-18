@@ -180,7 +180,7 @@ export default function Home() {
               className="group cursor-pointer"
             >
               <div className="relative aspect-[3/4] overflow-hidden bg-light-stone mb-4 shadow-md border border-silver-rivet/30 rounded-sm">
-                <img src="/1.jpeg" alt="Tote Bags" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <img src="/4.jpeg" alt="Tote Bags" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-raw-black/10 group-hover:bg-transparent transition-colors duration-500" />
               </div>
               <h3 className="font-display text-xl font-bold uppercase tracking-wide text-raw-black">Accessories</h3>
