@@ -43,6 +43,8 @@ export default function App() {
               <Route path="/about" element={<About />} />
               <Route path="/lookbook" element={<Lookbook />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+              <Route path="/terms-of-use" element={<TermsOfUse />} />
             </Routes>
           </main>
           <Footer />

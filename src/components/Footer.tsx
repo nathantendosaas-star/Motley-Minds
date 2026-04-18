@@ -27,8 +27,7 @@ export default function Footer() {
             <h3 className="text-sm font-semibold text-off-white uppercase tracking-widest mb-4 stitch-border-light inline-block pb-1 border-t-0 border-l-0 border-r-0">Connect</h3>
             <ul className="space-y-3">
               <li><Link to="/contact" className="hover:text-off-white transition-colors text-sm">Contact Us</Link></li>
-              <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-off-white transition-colors text-sm">Instagram</a></li>
-              <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-off-white transition-colors text-sm">Twitter</a></li>
+              <li><a href="https://www.instagram.com/motleyminds/" target="_blank" rel="noopener noreferrer" className="hover:text-off-white transition-colors text-sm">Instagram</a></li>
             </ul>
           </div>
         </div>
@@ -36,8 +35,8 @@ export default function Footer() {
         <div className="mt-16 pt-8 border-t border-washed-blue/30 flex flex-col md:flex-row justify-between items-center">
           <p className="text-xs text-faded-stitch">&copy; {new Date().getFullYear()} Motley Minds. All rights reserved.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <a href="#" className="text-xs text-faded-stitch hover:text-off-white transition-colors">Privacy Policy</a>
-            <a href="#" className="text-xs text-faded-stitch hover:text-off-white transition-colors">Terms of Service</a>
+            <Link to="/privacy-policy" className="text-xs text-faded-stitch hover:text-off-white transition-colors">Privacy Policy</Link>
+            <Link to="/terms-of-use" className="text-xs text-faded-stitch hover:text-off-white transition-colors">Terms of Use</Link>
           </div>
         </div>
       </div>
