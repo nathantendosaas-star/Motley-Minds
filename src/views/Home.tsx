@@ -14,8 +14,6 @@ export default function Home() {
   const heroRef = useRef<HTMLDivElement>(null);
   const storyRef = useRef<HTMLDivElement>(null);
 
-  const { scrollY } = useScroll();
-
   const { scrollYProgress: storyProgress } = useScroll({
     target: storyRef,
     offset: ["start end", "end start"]
